@@ -18,7 +18,7 @@ p {
  font-family: arial;
     font-size: 50px;
   }
-
+===
   #logo
 {
   margin-left: 20px;
@@ -78,6 +78,7 @@ div#div2 {
       left:300px;
     top:-300px;
      min-width:600px;
+     height:100%;
 }
 div#div3 {
     position:relative;
@@ -102,10 +103,17 @@ div#div3 {
 <a id="showdiv3" position="static"><ul class=a ><span style="cursor:pointer"><li>FAQs</li></span></ul></a>
 <br>
 <br>
-<div id="div1"><iframe width="80%" height="1000px" name="documentation" src ="DHTML_Help/frameset.htm" frameborder= "0" scrolling="no" allowfullscreen></iframe></div>
-<div id="div2" style="display:none;"><iframe width="80%" height="1080px" src ="videos/index1.html" frameborder= "0"scrolling="no" allowfullscreen></iframe> </div>
+<div id="div1">
+<iframe width="80%" height="1200px" name="documentation" src ="DHTML_Help/frameset.htm" frameborder= "0" scrolling="no" allowfullscreen></iframe></div>
+<div id="div2" style="display:none;">
+<iframe width="1280px" height="350px" src ="videos/index1.html" frameborder= "0"scrolling="no" allowfullscreen></iframe>
+<iframe width="1280px" height="350px" src ="videos/index2.html" frameborder= "0"scrolling="no" allowfullscreen></iframe>
+<iframe width="1280px" height="350px" src ="videos/index3.html" frameborder= "0"scrolling="no" allowfullscreen></iframe>
+<iframe width="1280px" height="350px" src ="videos/index4.html" frameborder= "0"scrolling="no" allowfullscreen></iframe>
+ </div>
 <div id="div3" style="display:none;" ><iframe class="iframe" width="2000px" height="80%" src ="FAQs/faq.html" frameborder= "0" allowfullscreen></iframe></div>
 </div>
+<div id="footer"><br><br><br></div>
     
   </body>
 </html>

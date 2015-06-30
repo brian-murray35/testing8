@@ -2,6 +2,22 @@
 
 <head>
 <style>
+p#title{
+position:relative;
+     left:150px;
+    top:-110px;
+
+}
+p#subtitle{
+position:relative;
+    left:150px;
+    top:-100px;
+}
+p#img{
+position:static;
+}
+
+}
 body{
 background-color: white;
 			#banner {
@@ -9,8 +25,10 @@ background-color: white;
     width:100%;
     min-height:189px;
 }
-img{
-	float: left;
+img#video{
+	position:relative;
+    right:-600px;
+    top:-100px;
 }
 
         </style>
@@ -28,9 +46,11 @@ img{
 	
 <body>
 
-<h1 align= "middle"> <font face="roboto"> Getting Started Videos </font></h1>
+<p id="img"><img src="images/researchicon.svg"></p>
+<p id="title">User Research</p>
+<p id="subtitle">Learn to Create Effective User Research Studies!</p>
 
-<div id="gallery" style="display:block";>
+<div id="gallery" style="display: block; max-width: 100%; min-width: 150px; overflow: visible; height: 170px; position: relative; left:-230px; top:-100px; width: auto; background-color: rgb(255, 255, 255);">
 			
 			 <img alt="Overview of User Research Studies"
 			 data-type="youtube"
@@ -46,43 +66,14 @@ img{
 			 data-videoid="jFY_911ShWA"
 			 data-description="Create Studies">
 			 
-			 			 	 <img alt="Ask Questions in User Research Studies"
+			 <img alt="Ask Questions in User Research Studies"
 			 data-type="youtube"
 			 src="images/thumbs/Adding Questions.png"
 			 data-image="images/add_questions.png"		 
 			 data-videoid="jFY_911ShWA"
 			 data-description="Ask Questions in User Research Studies">
 			 
-</div>	
-
-<h1 align= "center"> <font face="roboto"> Designing Prototypes </font></h1>
-
-<div id="gallery1" style="display:block"; >
-			
-			 
-			 			 	 <img alt="Set Tasks in User Research Studies"
-			 data-type="youtube"
-			 src="images/thumbs/Set Tasks.png"
-			 data-image="images/set_tasks.png"		 
-			 data-videoid="jFY_911ShWA"
-			 data-description="Set Tasks in User Research Studies">
-			 
-			 	 <img alt="Manage User Research Studies"
-			 data-type="youtube"
-			 src="images/thumbs/Manage Studies.png"
-			 data-image="images/managing_user_research_studies.png"		 
-			 data-videoid="jFY_911ShWA"
-			 data-description="Managing User Research Studies">
-			 
-			 <img alt="Preview and Publish User Research Studies"
-			 data-type="youtube"
-			 src="images/thumbs/Preview and Publish Studies.png"
-			 data-image="images/preview_and_publish.png"		 
-			 data-videoid="jFY_911ShWA"
-			 data-description="Previewing and Publishing User Research Studies">
-			 
-</div>	
-
+</div>
 
 	<script type="text/javascript">
 				jQuery(document).ready(function(){
