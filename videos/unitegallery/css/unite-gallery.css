@@ -720,8 +720,8 @@ img.ug-sepia-effect{
     overflow: hidden;
     top: 0;
     left: 0;
-	width: 50%;
-    height: 50%;
+	width: 200%;
+    height: 200%;
 	max-width:none !important;
 	max-height:none !important;
     z-index: 999999;
@@ -736,8 +736,8 @@ img.ug-sepia-effect{
 
 .ug-lightbox .ug-lightbox-overlay{
 	z-index:1;
-	width:50%;
-	height:50%;
+	width:200%;
+	height:200%;
     background-color:#000000;
     opacity:1;
 }
