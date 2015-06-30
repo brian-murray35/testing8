@@ -2,11 +2,16 @@
 
 <head>
 <style>
+body{
+background-color: white;
+}
+#banner {
+    background:images/Build_banner;
+    width:100%;
+    min-height:189px;
+}
 p#title{
 position:relative;
-     left:150px;
-    top:-140px;
-    bottom:-100;
     font-family:"Roboto";
     font-size: 23px;
     color:#2C3E50;
@@ -15,8 +20,6 @@ position:relative;
 }
 p#subtitle{
 position:relative;
-    left:150px;
-    top:-160px;
      font-family:"Roboto";
     font-size: 10px;
     font-weight: bold;
@@ -24,20 +27,7 @@ position:relative;
 }
 p#img{
 position:static;
-}
-
-}
-body{
-background-color: white;
-			#banner {
-    background:images/Build_banner;
-    width:100%;
-    min-height:189px;
-}
-img#video{
-	position:relative;
-    right:-600px;
-    top:-100px;
+top:-35px;
 }
 
         </style>
@@ -55,11 +45,11 @@ img#video{
 	
 <body>
 
-<p id="img"><img src="images/Datamodelicon.svg"></p>
-<p id="title">Data Modelling</p>
-<p id="subtitle">Learn to Create Prototypes by Modelling Data!</p>
+<p id="img"><img src="images/teamicon.svg"></p>
+<p id="title">Getting Started</p>
+<p id="subtitle">Learn the Basics!</p>
 
-<div id="gallery" style="display: block; max-width: 100%; min-width: 150px; overflow: visible; height: 170px; position: relative; left:-230px; top:-120px; width: auto; background-color: rgb(255, 255, 255);">
+<div id="gallery" style="display:block";>
 			
 			 <img alt="Overview of User Research Studies"
 			 data-type="youtube"
@@ -75,37 +65,68 @@ img#video{
 			 data-videoid="jFY_911ShWA"
 			 data-description="Create Studies">
 			 
-			 <img alt="Ask Questions in User Research Studies"
+			 			 	 <img alt="Ask Questions in User Research Studies"
 			 data-type="youtube"
 			 src="images/thumbs/Adding Questions.png"
 			 data-image="images/add_questions.png"		 
 			 data-videoid="jFY_911ShWA"
 			 data-description="Ask Questions in User Research Studies">
 			 
-</div>
+</div>	
+
 
 	<script type="text/javascript">
 				jQuery(document).ready(function(){
 					
 					jQuery("#gallery").unitegallery({
 						gallery_theme: "tilesgrid",
-						tile_width: 225,						//tile width
-					tile_height: 150,						//tile height
+						tile_width: 400,						//tile width
+					tile_height: 250,						//tile height
 					gallery_width:"100%",				//gallery width
 					gallery_min_width: 150,				//gallery minimal width when resizing
-					gallery_background_color: "white",		//set custom background color. If not set it will be taken from css
-						tile_enable_textpanel: true,		 	//enable textpanel
-					tile_textpanel_source: "title",		 	//title,desc,desc_title. source of the textpanel. desc_title - if description empty, put title
-					tile_textpanel_always_on: true,	 	//textpanel always visible
-					tile_textpanel_appear_type: "slide", 	//slide, fade - appear type of the textpanel on mouseove
-					tile_textpanel_title_font_family:"roboto",
-					tile_textpanel_bg_opacity: 0.8,		 	//textpanel background opacity
-					tile_textpanel_bg_color:"#2C3E50",	 	//textpanel background color
-					tile_textpanel_title_bold:true
+					gallery_background_color: "white"		//set custom background color. If not set it will be taken from css.
 					});		
 				});		
 				</script>	
-	
+	<script type="text/javascript">
+				jQuery(document).ready(function(){
+					
+					jQuery("#gallery1").unitegallery({
+						gallery_theme: "tilesgrid",
+						tile_width: 400,						//tile width
+					tile_height: 250,						//tile height
+					gallery_width:"100%",				//gallery width
+					gallery_min_width: 150,				//gallery minimal width when resizing
+					gallery_background_color: "white"		//set custom background color. If not set it will be taken from css.
+					});		
+				});		
+				</script>	
+	<script type="text/javascript">
+				jQuery(document).ready(function(){
+					
+					jQuery("#gallery2").unitegallery({
+						gallery_theme: "tilesgrid",
+						tile_width: 400,						//tile width
+					tile_height: 250,						//tile height
+					gallery_width:"100%",				//gallery width
+					gallery_min_width: 150,				//gallery minimal width when resizing
+					gallery_background_color: "white"		//set custom background color. If not set it will be taken from css.
+					});		
+				});		
+				</script>	
+	<script type="text/javascript">
+				jQuery(document).ready(function(){
+					
+					jQuery("#gallery3").unitegallery({
+						gallery_theme: "tilesgrid",
+						tile_width: 400,						//tile width
+					tile_height: 250,						//tile height
+					gallery_width:"100%",				//gallery width
+					gallery_min_width: 150,				//gallery minimal width when resizing
+					gallery_background_color: "white"		//set custom background color. If not set it will be taken from css.
+					});		
+				});		
+				</script>	
 				
 </body>
 </html>
