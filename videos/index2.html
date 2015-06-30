@@ -5,20 +5,22 @@
 p#title{
 position:relative;
      left:150px;
-    top:-150px;
+    top:-140px;
     bottom:-100;
-    font-family:roboto;
-    font-size: 30px;
-    font-weight: 10;
+    font-family:"Roboto";
+    font-size: 23px;
+    color:#2C3E50;
+    font-weight: bold;
 
 }
 p#subtitle{
 position:relative;
     left:150px;
     top:-160px;
-     font-family:roboto;
-    font-size: 15px;
-    font-weight: 5px;
+     font-family:"Roboto";
+    font-size: 10px;
+    font-weight: bold;
+    color:#7F8C8D;
 }
 p#img{
 position:static;
@@ -57,7 +59,7 @@ img#video{
 <p id="title">Data Modelling</p>
 <p id="subtitle">Learn to Create Prototypes by Modelling Data!</p>
 
-<div id="gallery" style="display: block; max-width: 100%; min-width: 150px; overflow: visible; height: 170px; position: relative; left:-230px; top:-160px; width: auto; background-color: rgb(255, 255, 255);">
+<div id="gallery" style="display: block; max-width: 100%; min-width: 150px; overflow: visible; height: 170px; position: relative; left:-230px; top:-120px; width: auto; background-color: rgb(255, 255, 255);">
 			
 			 <img alt="Overview of User Research Studies"
 			 data-type="youtube"
@@ -91,49 +93,19 @@ img#video{
 					tile_height: 150,						//tile height
 					gallery_width:"100%",				//gallery width
 					gallery_min_width: 150,				//gallery minimal width when resizing
-					gallery_background_color: "white"		//set custom background color. If not set it will be taken from css.
+					gallery_background_color: "white",		//set custom background color. If not set it will be taken from css
+						tile_enable_textpanel: true,		 	//enable textpanel
+					tile_textpanel_source: "title",		 	//title,desc,desc_title. source of the textpanel. desc_title - if description empty, put title
+					tile_textpanel_always_on: true,	 	//textpanel always visible
+					tile_textpanel_appear_type: "slide", 	//slide, fade - appear type of the textpanel on mouseove
+					tile_textpanel_title_font_family:"roboto",
+					tile_textpanel_bg_opacity: 0.8,		 	//textpanel background opacity
+					tile_textpanel_bg_color:"#2C3E50",	 	//textpanel background color
+					tile_textpanel_title_bold:true
 					});		
 				});		
 				</script>	
-	<script type="text/javascript">
-				jQuery(document).ready(function(){
-					
-					jQuery("#gallery1").unitegallery({
-						gallery_theme: "tilesgrid",
-						tile_width: 225,						//tile width
-					tile_height: 150,						//tile height
-					gallery_width:"100%",				//gallery width
-					gallery_min_width: 150,				//gallery minimal width when resizing
-					gallery_background_color: "white"		//set custom background color. If not set it will be taken from css.
-					});		
-				});		
-				</script>	
-	<script type="text/javascript">
-				jQuery(document).ready(function(){
-					
-					jQuery("#gallery2").unitegallery({
-						gallery_theme: "tilesgrid",
-						tile_width: 400,						//tile width
-					tile_height: 250,						//tile height
-					gallery_width:"100%",				//gallery width
-					gallery_min_width: 150,				//gallery minimal width when resizing
-					gallery_background_color: "white"		//set custom background color. If not set it will be taken from css.
-					});		
-				});		
-				</script>	
-	<script type="text/javascript">
-				jQuery(document).ready(function(){
-					
-					jQuery("#gallery3").unitegallery({
-						gallery_theme: "tilesgrid",
-						tile_width: 400,						//tile width
-					tile_height: 250,						//tile height
-					gallery_width:"100%",				//gallery width
-					gallery_min_width: 150,				//gallery minimal width when resizing
-					gallery_background_color: "white"		//set custom background color. If not set it will be taken from css.
-					});		
-				});		
-				</script>	
+	
 				
 </body>
 </html>
