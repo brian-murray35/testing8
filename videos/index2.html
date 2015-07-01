@@ -1,9 +1,16 @@
 <!DOCTYPE html>
 
 <head>
+<!-- ... [OTHER INCLUDES] ... -->
+<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+<!-- Include Unite Gallery core files -->
+<script src='unitegallery/js/unitegallery.min.js' type='text/javascript'  ></script>
+<link  href='unitegallery/css/unite-gallery.css' rel='stylesheet' type='text/css' />
+<link href='http://fonts.googleapis.com/css?family=Roboto:500,300,700,400&subset=latin,cyrillic-ext' rel='stylesheet' type='text/css'>
+<!-- include Unite Gallery Theme Files -->
+<script src='unitegallery/themes/tilesgrid/ug-theme-tilesgrid.js' type='text/javascript'></script>
 <style>
-body{
-background-color: white;
+
 }
 #banner {
     background:images/Build_banner;
@@ -12,9 +19,9 @@ background-color: white;
 }
 p#title{
 	position:relative;
-	top:-160px;
+	top:-185px;
 	right:-150px;
-    font-family:"Roboto";
+    font-family: Roboto;
     font-size: 23px;
     color:#2C3E50;
     font-weight: bold;
@@ -22,29 +29,19 @@ p#title{
 }
 p#subtitle{
 	position:relative;
-	top:-160px;
+	top:-185px;
 	right:-150px;
-     font-family:"Roboto";
+     font-family:Roboto;
     font-size: 10px;
     font-weight: bold;
     color:#7F8C8D;
 }
 p#img{
 position:relative;
-top:-20px;
+top:-35px;
 }
 
 </style>
-<!-- ... [OTHER INCLUDES] ... -->
-<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
-
-<!-- Include Unite Gallery core files -->
-				<script src='unitegallery/js/unitegallery.min.js' type='text/javascript'  ></script>
-				<link  href='unitegallery/css/unite-gallery.css' rel='stylesheet' type='text/css' />
-				
-<!-- include Unite Gallery Theme Files -->
-				
-				<script src='unitegallery/themes/tilesgrid/ug-theme-tilesgrid.js' type='text/javascript'></script>
 </head>
 	
 <body>
@@ -84,11 +81,14 @@ top:-20px;
 					
 					jQuery("#gallery").unitegallery({
 						gallery_theme: "tilesgrid",
-						tile_width: 400,						//tile width
-					tile_height: 250,						//tile height
+						tile_width: 300,						//tile width
+					tile_height: 175,						//tile height
 					gallery_width:"100%",				//gallery width
 					gallery_min_width: 150,				//gallery minimal width when resizing
-					gallery_background_color: "white"		//set custom background color. If not set it will be taken from css.
+					gallery_background_color: "white",		//set custom background color. If not set it will be taken from css.
+					tile_enable_textpanel: true,		 	//enable textpanel
+					tile_textpanel_source: "title",	 	//title,desc,desc_title. source of the textpanel. desc_title - if description empty, put title
+					tile_textpanel_desc_font_size:"Roboto"		 //textpanel description font size. if null - take from css
 					});		
 				});		
 				</script>	
@@ -97,8 +97,8 @@ top:-20px;
 					
 					jQuery("#gallery1").unitegallery({
 						gallery_theme: "tilesgrid",
-						tile_width: 400,						//tile width
-					tile_height: 250,						//tile height
+						tile_width: 300,						//tile width
+					tile_height: 175,					//tile height
 					gallery_width:"100%",				//gallery width
 					gallery_min_width: 150,				//gallery minimal width when resizing
 					gallery_background_color: "white"		//set custom background color. If not set it will be taken from css.

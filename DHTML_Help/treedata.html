@@ -33,7 +33,7 @@ parent.gMenu.Add(false,"Control Properties in the Object Page Template","framese
     parent.gMenu.Initialize();
     parent.gMenu.GenerateTree();
     var collapsedState = document.cookie.replace(/(?:(?:^|.*;\s*)navCollapsed\s*\=\s*([^;]*).*$)|^.*$/, "$1");
-    if(collapsedState === "true"){
+    if(collapsedState === "false"){
         parent.gMenu.ToggleToC('Min','Expand');
     } 
     //--></script></body></html>

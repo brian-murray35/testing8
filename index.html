@@ -6,6 +6,7 @@
     <title>Testing6 by brianmurray104</title>
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/github-light.css">
+    <link href='http://fonts.googleapis.com/css?family=Roboto:500,300,700,400&subset=latin,cyrillic-ext' rel='stylesheet' type='text/css'>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js" type="text/javascript"></script>
     <script type="text/javascript" src="javascripts/script.js"></script>
@@ -21,14 +22,13 @@ p {
 
   #logo
 {
-  margin-left: 20px;
-  margin-top: 20px;
   width:10%;
+  position:fixed;
 }
   
 #header {
 min-height: 100px;
-margin-top:-65px;
+margin-top:-30px;
 margin-left:-65px;
 margin-right:-100px;
 width: 100%;
@@ -60,7 +60,7 @@ width: 100%;
 ul.a{
   list-style-type: square;
   font-size: 25px;
-  font-family: Arial;
+  font-family: Roboto;
   text-align:left;
 }
 #wrap{
@@ -85,31 +85,39 @@ div#div3 {
     top:-300px;
      min-width:600px;
 }
-
+div#div4 {
+    position:relative;
+    left:300px;
+    top:-300px;
+     min-width:600px;
+}
 
 </style>
   </head>
   <body>
   <div id="header" position="static">
-  <img src= "images/BACKGRD.png" "width=100%" style="position: relative; top: 0; left: 0;"/>
-  <img id="logo" src= "images/Logo with Lucy.svg"  style="position: absolute; top: 30px; left: 50px;"/></div>  
+  <img src= "images/BACKGRD.png"  style="position: relative; top: -200; left: 0;"/>
+  </div>  
   <div id="nav">
   <br><br>
-<a id="showdiv1" position="static"><ul class=a ><span style="cursor:pointer" ><li>Documentation</li></span></ul></a>
+  <a id="showdiv4" position="fixed"><ul class=a ><span style="cursor:pointer"><li>Search Build Help</li></span></ul></a>
+  <br>
+<a id="showdiv1" position="fixed"><ul class=a ><span style="cursor:pointer"><li>Video</li></span></ul></a>
 <br>
-<a id="showdiv2" position="static"><ul class=a ><span style="cursor:pointer"><li>Video</li></span></ul></a>
+<a id="showdiv2" position="fixed"><ul class=a ><span style="cursor:pointer" ><li>Documentation</li></span></ul></a>
 <br>
-<a id="showdiv3" position="static"><ul class=a ><span style="cursor:pointer"><li>FAQs</li></span></ul></a>
+<a id="showdiv3" position="fixed"><ul class=a ><span style="cursor:pointer"><li>FAQs</li></span></ul></a>
 <br>
 <br>
-<div id="div1"><iframe width="80%" height="1200px" name="documentation" src ="DHTML_Help/frameset.htm" frameborder= "0" scrolling="no" allowfullscreen></iframe></div>
+<div id="div1">
+<iframe  style="position:relative; top: -120px" width="80%" height="380px" src ="videos/index1.html" frameborder= "0"scrolling="no" allowfullscreen></iframe> 
+<iframe  style="position:relative; top: -120px" width="80%" height="380px" src ="videos/index2.html" frameborder= "0"scrolling="no" allowfullscreen></iframe> 
+<iframe  style="position:relative; top: -120px" width="80%" height="380px" src ="videos/index3.html" frameborder= "0"scrolling="no" allowfullscreen></iframe> 
+<iframe  style="position:relative; top: -120px" width="80%" height="380px" src ="videos/index4.html" frameborder= "0"scrolling="no" allowfullscreen></iframe></div>
 <div id="div2" style="display:none;">
-<iframe width="80%" height="380px" src ="videos/index1.html" frameborder= "0"scrolling="no" allowfullscreen></iframe> 
-<iframe width="80%" height="380px" src ="videos/index2.html" frameborder= "0"scrolling="no" allowfullscreen></iframe> 
-<iframe width="80%" height="380px" src ="videos/index3.html" frameborder= "0"scrolling="no" allowfullscreen></iframe> 
-<iframe width="80%" height="380px" src ="videos/index4.html" frameborder= "0"scrolling="no" allowfullscreen></iframe> 
-</div>
-<div id="div3" style="display:none;" ><iframe class="iframe" width="2000px" height="80%" src ="FAQs/faq.html" frameborder= "0" allowfullscreen></iframe></div>
+<iframe style="position:relative; top: -120px" width="80%" height="1200px" name="documentation" src ="DHTML_Help/frameset.htm" frameborder= "0" scrolling="no" allowfullscreen></iframe></div>
+<div id="div3" style="display:none;"><iframe style="position:relative; top: -120px"class="iframe" width="2000px" height="80%" src ="FAQs/faq.html" frameborder= "0" allowfullscreen></iframe></div>
+<div id="div4" style="display:none;"><iframe style="position:relative; top: -120px" class="iframe" width="2000px" height="80%" src ="DHTML_Help/search.html" frameborder= "0" allowfullscreen></iframe></div>
 </div>
     
   </body>
