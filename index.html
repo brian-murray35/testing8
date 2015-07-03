@@ -25,6 +25,10 @@ p {
 {
   z-index:6;
 }
+ #logo1
+{
+  z-index:6;
+  }
   
 #header {
 min-height: 300px;
@@ -41,6 +45,7 @@ z-index:5;
     padding:20px;
     width:350px;
     min-width:300px;
+    height:100%;
     position:fixed;
     top:300px;
     z-index:5;
@@ -67,7 +72,7 @@ ul.a{
   font-family: Roboto;
   text-align:left;
   padding-left:8em;
-  color:'2C78Bo;
+  color:;
 }
 #wrap{
   min-width:300px;
@@ -75,7 +80,7 @@ ul.a{
 
 div#div1 {
     position:relative;
-    left:30%;
+    left:28%;
     width:65%;
     top:450px; 
     min-width:500px;
@@ -140,16 +145,24 @@ position:relative;
 a:hover {
     color: #814C8D;
 }
+@media screen and (max-width: 600px) {
+
+    #logo {display:none;}
+
+}
 
 </style>
   </head>
-  <body style="min-width:960px;">
+  <body>
   <div id="header">
-  <img src= "images/BACKGRD.png" style="position: relative; top: -200; left: 0; min-height:300px; min-width:100%"/>
+  <img src= "images/BACKGRD.png" style="position: relative; top: -200; left: 0; min-height:300px;"/>
   <div class="btn-group open">
-  <a class="btn btn-primary" id="showdiv4" style="position:absolute; top: 250px; left:85%; z-index:6; font-family: Roboto; font-size:30px; color: white; min-width"><span style="cursor:pointer"><i class="fa fa-search"></span></i> Search</a>
+  <a class="btn btn-primary" id="showdiv4" style="position:absolute; top: 20px; left:85%; z-index:6; font-family: Roboto; font-size:30px; color: white; min-width"><span style="cursor:pointer"><i class="fa fa-search"></span></i> Search</a>
   </div>
-  <div id="logo"><img src= "images/Logo with Lucy.svg" style="position: absolute; top: 70px; left:50%;"/>
+  <div id="logo"><img src= "images/Logo with Lucy.svg" style="position: absolute; top: 70px; left:45%;"/>
+</div>
+  <div id="logo1"><img src= "images/text_for_banner.png" style="position: absolute; top: 246px; left:35%;"/>
+</div>
 </div>
   </div>  
   <div id="nav">
