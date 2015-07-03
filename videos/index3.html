@@ -17,40 +17,16 @@
     width:100%;
     min-height:189px;
 }
-p#title{
-	position:relative;
-	top:-195px;
-	right:-150px;
-    font-family: Roboto;
-    font-size: 23px;
-    color:#2C3E50;
-    font-weight: bold;
 
-}
-p#subtitle{
-	position:relative;
-	top:-195px;
-	right:-150px;
-     font-family:Roboto;
-    font-size: 10px;
-    font-weight: bold;
-    color:#7F8C8D;
-}
-p#img{
-position:relative;
-top:-35px;
-}
 
+</style>
 </style>
 </head>
 	
 <body>
 
-<p id="img"><img src="images/prototypeicon.svg"></p>
-<p id="title">UI Composer</p>
-<p id="subtitle">Learn about the UI Composer!</p>
 
-<div id="gallery" style="display:block; position: relative; top:-160px; left:-70px">
+<div id="gallery" style="display:block; position: relative; ">
 			
 			 <img alt="Overview of User Research Studies"
 			 data-type="youtube"
@@ -81,8 +57,8 @@ top:-35px;
 					
 					jQuery("#gallery").unitegallery({
 						gallery_theme: "tilesgrid",
-						tile_width: 300,						//tile width
-					tile_height: 175,
+							tile_width: 200,						//tile width
+					tile_height: 125,
 					gallery_width:"100%",				//gallery width
 					gallery_min_width: 150,				//gallery minimal width when resizing
 					gallery_background_color: "white",		//set custom background color. If not set it will be taken from css.

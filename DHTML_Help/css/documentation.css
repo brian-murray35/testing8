@@ -1159,6 +1159,7 @@ iframe {
 	border-bottom-style:dotted;
 	border-bottom-width: 1px;
 	border-bottom-color: #000000;
+	max-width: 60%;
 }
 .searchItem:hover {
 	background-color: #F6F6F6;
