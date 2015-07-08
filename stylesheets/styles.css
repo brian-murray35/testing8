@@ -270,8 +270,26 @@ footer {
   p#img{
 position:relative;
 }
-
-
+#headerimg1{
+position: relative; 
+top: -200; 
+left: 0; 
+min-width:1600px; 
+height:300px; 
+min-height:300px;"
+}
+#headerimg2{
+position:absolute; 
+top:255px; 
+left: 38%; 
+z-index=7;"
+}
+#headerimg3{
+position:absolute; 
+top:100px; 
+left:48%; 
+z-index=7;"
+}
 
 /* principle divs*/ 
 
@@ -340,6 +358,17 @@ div#div4 {
    padding:5px;   
 
 }
+#showdiv4{
+position:absolute; 
+top: 20%;
+left:80%; 
+height:auto; 
+right:130px; 
+z-index:6; 
+font-family: Roboto; 
+font-size:30px; 
+color: white;
+}
 
 /* iFrames*/ 
 
@@ -352,17 +381,21 @@ top:-150px;
 }
 #iframe2{
 position:relative; 
-top: -425px;
- width:60%; 
- left:35%;
- height:300px; 
+top: 500px;
+ width:80%; 
+ height:1200px; 
 }
 #iframe3{
+position:relative;
+top: 350px;
+width:2000px;
+height:80%;
+}
+#iframe4{
 position:relative; 
-top: -590px;
-width:60%;
- left:35%;
-height:275px;
+top: 400px;
+width:2000px;
+height:1200px;
 }
 
 

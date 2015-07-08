@@ -7,7 +7,8 @@
     <title>BUILD User Assistance</title>
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/github-light.css">
-    <link rel="stylesheet" href="stylesheets/ipad-responsive.css" media="screen and (max-width:900px)">
+      <link rel="stylesheet" href="stylesheets/1600width.css" media="screen and (max-width:1600px)">
+    <link rel="stylesheet" href="stylesheets/ipad-responsive.css" media="screen and (max-width:1024px)">
      <link rel="stylesheet" href="stylesheets/iphone-responsive.css" media="screen and (max-width:500px)">
     <link rel="stylesheet" href="stylesheets/github-light.css">
     <link href='https://raw.githubusercontent.com/choffmeister/roboto-fontface-bower/develop/css/roboto-fontface.css' rel='stylesheet' type='text/css'>
@@ -22,11 +23,11 @@
   </head>
   <body>
   <div id="header">
-  <img src= "images/BACKGRD.png" style="position: relative; top: -200; left: 0; min-width:100%; height:auto"/>
-  <img src= "images/text_for_banner.png" style="position:absolute; top:258px; left: 38%; z-index=7;">
-  <img src="images/Logo with Lucy.svg" style="position:absolute; top:100px; left:48%; z-index=7;"> 
+  <img id="headerimg1" src= "images/BACKGRD.png"/>
+  <img id="headerimg2" src= "images/text_for_banner.png">
+  <img id="headerimg3" src="images/Logo with Lucy.svg"> 
   <div class="btn-group open">
-  <a class="btn btn-primary" id="showdiv4" style="position:absolute; top: 70%; height:auto; right:130px; z-index:6; font-family: Roboto; font-size:30px; color: white;"><span style="cursor:pointer"><i class="fa fa-search"></i>Search</span></a>
+  <a class="btn btn-primary" id="showdiv4"><span style="cursor:pointer"><i class="fa fa-search"></i>Search</span></a>
   </div>
   </div>  
   <div id="nav">
@@ -42,9 +43,9 @@
 <iframe  id="iframe1" src ="videos/index1.html"; frameborder="1"; scrolling="no"></iframe> 
 </div>
 <div id="div2" style="display:none;">
-<iframe style="position:relative; top: 500px" width="80%" height="1200px" name="documentation" src ="DHTML_Help/frameset.htm" frameborder= "1" scrolling="no" allowfullscreen></iframe></div>
-<div id="div3" style="display:none;"><iframe style="position:relative; top: 350px"class="iframe" width="2000px" height="80%" src ="FAQs/faq.html" frameborder= "1" allowfullscreen></iframe></div>
-<div id="div4" style="display:none;"><iframe style="position:relative; top: 400px;" class="iframe" width="2000px" height="1200px" src ="DHTML_Help/search.html" frameborder= "1" scrolling="yes" allowfullscreen></iframe></div>
+<iframe id="iframe2"  src ="DHTML_Help/frameset.htm" frameborder= "1" scrolling="no" allowfullscreen></iframe></div>
+<div id="div3" style="display:none;"><iframe id="iframe3" src ="FAQs/faq.html" frameborder= "1" allowfullscreen></iframe></div>
+<div id="div4" style="display:none;"><iframe id="iframe4" src ="DHTML_Help/search.html" frameborder= "1" allowfullscreen></iframe></div>
 </div>
   </body>
 </html>
