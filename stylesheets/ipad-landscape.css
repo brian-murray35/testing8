@@ -280,12 +280,12 @@ min-height:200px;"
 z-index:7;
 }
 #headerimg2{
-position:absolute; 
-top:147px; 
-left: 20%; 
+position:relative; 
+top:-32px; 
+left: 15%; 
 z-index:7;
-height:30%;
-width:30%;
+height:35%;
+width:35%;
 }
 #headerimg3{
 position:absolute; 
@@ -368,9 +368,9 @@ top:90px;
 }
 
 #showdiv4{
-position:absolute; 
-top: 20%;
-left:50%;
+position:fixed; 
+top:20px;
+left:80%;
 height:auto; 
 z-index:6; 
 font-family: Roboto; 

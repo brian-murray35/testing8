@@ -363,9 +363,9 @@ div#div4 {
 
 }
 #showdiv4{
-position:absolute; 
-top: 20%;
-left:60%;
+position:fixed; 
+top:50px;
+left:70%;
 height:auto; 
 z-index:6; 
 font-family: Roboto; 
