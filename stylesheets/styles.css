@@ -282,13 +282,16 @@ min-height:300px;"
 position:absolute; 
 top:255px; 
 left: 38%; 
-z-index=7;"
+z-index:7;
 }
 #headerimg3{
 position:absolute; 
 top:100px; 
 left:48%; 
-z-index=7;"
+z-index:7;
+}
+#headerimg4{
+display:none;
 }
 
 /* principle divs*/ 
