@@ -301,7 +301,7 @@ min-height: 300px;
 margin-top:-30px;
 margin-left:-65px;
 margin-right:-100px;
-position:fixed;
+position:relative;
 z-index:5;
 }
 #nav {
@@ -309,13 +309,10 @@ z-index:5;
     background-color: white;
     float:left;
     padding:20px;
-    width:350px;
-    min-width:300px;
-    height:100%;
-    position:fixed;
-    top:300px;
-    z-index:5;
     width:15%;
+    height:100%;
+    position:relative;
+    z-index:5;
 }
 div#div1 {
     position:relative;
@@ -346,7 +343,7 @@ div#div3 {
 }
 div#div4 {
     position:relative;
-    left:33%;
+    top:100px;
      width:75%;
     float:left;    
     top:-50px;
@@ -362,31 +359,32 @@ div#div4 {
 
 }
 #showdiv4{
-position:absolute; 
-top: 50px;
-left:80%; 
+position:relative; 
+top:-250px;
+left:80%;
 height:auto; 
-right:130px; 
 z-index:6; 
 font-family: Roboto; 
 font-size:30px; 
-color: white;
+color: white;"
 }
 
 /* iFrames*/ 
 
 #iframe1{
+src: url("../videos/index1.html");
 position:relative; 
-width:60%; 
-left:35%;
+width:800px; 
+left:30%;
 height:720px;
-top:-150px; 
+top:-450px; 
 }
 #iframe2{
 position:relative; 
-top: 500px;
- width:80%; 
+top: 200px;
+ width:100%; 
  height:1200px; 
+ left:-35%;
 }
 #iframe3{
 position:relative;
@@ -396,7 +394,7 @@ height:80%;
 }
 #iframe4{
 position:relative; 
-top: 400px;
+top: 50px;
 width:2000px;
 height:1200px;
 }
