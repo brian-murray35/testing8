@@ -92,7 +92,7 @@ th {
 }
 
 img {
-  max-width:120%;
+  max-width:100%;
 }
 
 header {
@@ -278,21 +278,23 @@ min-width:1600px;
 height:200px; 
 min-height:200px;"
 z-index:7;
+width:100%;
+height:auto;
 }
 #headerimg2{
 position:relative; 
-top:-40px; 
+top:-30px; 
 left: 32%; 
 z-index:7;
-height:30%;
-width:40%;
+height:25%;
+width:35%;
 }
 #headerimg3{
 position:absolute; 
-top:50px;
-left:35%; 
+top:30px; 
+left:37%;  
 z-index:7;
-height:30%;
+height: 25%;
 width:25%;
 }
 #headerimg4{
@@ -300,18 +302,19 @@ position:relative;
 z-index:5;
 left:-150px;
 top:175px;
+
 }
 
 /* principle divs*/ 
 
 #header {
-height:200px;
+height:150px;
 min-height: 200px;
 margin-top:-30px;
 margin-left:-65px;
 margin-right:-100px;
 position:relative;
-z-index:1;
+z-index:7;
 max-height:200px;
 }
 #nav {
@@ -319,8 +322,9 @@ max-height:200px;
     background-color: white;
     width:100%;
     height:50px;
+    left:150px;
     position:relative;
-    z-index:6;
+    z-index:9;
     top:20px;
 }
 div#div1 {
@@ -328,26 +332,32 @@ div#div1 {
     float:left;
     left:-50px;
     min-width:500px;
-    z-index:4;
-    top:655px;
+    z-index:3;
+    top:625px;
 }
 div#div2 {
     position:relative;
-    top:-400px;
-      z-index:4;
+    top:-450px;
+      z-index:3;
       
 }
 div#div3 {
      position:relative;
     top:-50px;
-      z-index:4;
+      z-index:3;
+}
+div#div5{
+  position:relative;
+    top:-250px;
+      z-index:3;
 }
 div#div4 {
     position:relative;
     top:600px;
-      z-index:4;
+      z-index:3;
       left:100px;
 }
+
 #footer {
     background-image: url("images/footer.png");
     background-repeat: no-repeat;
@@ -372,31 +382,47 @@ top:50px;
 
 #showdiv4{
 position:relative; 
-top:-250px;
+top:-100px;
 left:80%;
 height:auto; 
-z-index:6; 
+z-index:10; 
 font-family: Roboto; 
-font-size:30px; 
-color: white;"
+font-size:20px; 
+color: white;
+z-index:5;
 }
 
 /* iFrames*/ 
 
 #iframe1{
 position:relative; 
-width:100%; 
-height:480px;
+width:720px; 
+height:500px;
 top:-600px; 
-left:120px;
+left:220px;
+z-index:10;
 
+}
+#iframe1b{
+position:relative; 
+width:720px; 
+height:570px;
+top:-550px; 
+left:220px;
+}
+#iframe1c{
+position:relative; 
+width:720px; 
+height:500px;
+top:-600px; 
+left:220px;
 }
 #iframe2{
 position:relative; 
 top: 400px; 
  height:1200px;
 float:left;
-left:-360px;
+left:-300px;
  width:1023px;
 }
 #iframe3{
@@ -409,12 +435,20 @@ left:-360px;
 }
 #iframe4{
 position:relative; 
-top: -540px; 
+top: -590px; 
  height:1200px;
 float:left;
-left:-50px;
- width:1020px;
+left:-100px;
+ width:1000px;
 
+}
+#iframe5{
+position:relative; 
+top: 200px; 
+ height:1200px;
+float:left;
+left:-300px;
+ width:1023px;
 }
 
 
@@ -425,11 +459,30 @@ ul.a{
   font-size: 20px;
   font-family: Roboto;
   padding-left:4em;
+   z-index:10;
 }
 a:hover {
     color: #814C8D;
 }
+#showdiv1{
+position:relative;
+top:-70px;
+left:-70px;
+z-index: 8;
 
+}
+#showdiv2{
+position:relative;
+top:-150px;
+left:160px;
+z-index: 8;
+}
+#showdiv5{
+position:relative;
+top:-230px;
+left: 400px;
+z-index: 8;
+}
 
 /* Video Logo & Title*/ 
 
